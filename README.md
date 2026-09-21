@@ -32,4 +32,12 @@ The source of these projects is private; the case-study repositories show what e
 
 <sub>Numbers come from the GitHub API for this account and include private repositories (counts only, nothing else is exposed).</sub>
 
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/klaschukk/klaschukk/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/klaschukk/klaschukk/output/github-snake.svg">
+  <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/klaschukk/klaschukk/output/github-snake.svg" width="100%">
+</picture>
+</div>
+
 <img src="assets/quote.svg" alt="Quotes: Linus Torvalds, Kent Beck, Antoine de Saint-Exupéry" width="100%">
