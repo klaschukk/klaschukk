@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 12" width="1200" height="12" role="presentation">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#5eead4" stop-opacity="0"/><stop offset=".5" stop-color="#5eead4"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient></defs>
+<style>.m{animation:mv 5s ease-in-out infinite alternate}@keyframes mv{from{transform:translateX(-420px)}to{transform:translateX(420px)}}</style>
+<rect x="0" y="5" width="1200" height="2" fill="#ffffff" opacity=".08"/>
+<rect class="m" x="390" y="4" width="420" height="4" rx="2" fill="url(#g)"/></svg>

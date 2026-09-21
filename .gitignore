@@ -1,0 +1,6 @@
+# local-only: raw API dump (contains private repo names), handoff notes, showcase repos, scratch
+data/
+showcase/
+HANDOFF.md
+__pycache__/
+*.pyc

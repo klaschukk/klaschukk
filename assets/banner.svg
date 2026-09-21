@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="klaschuk — builder of live web products">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f1e"/><stop offset=".55" stop-color="#0d2233"/><stop offset="1" stop-color="#1a1245"/></linearGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5eead4"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="46"/></filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/></pattern>
+<clipPath id="r"><rect width="1200" height="320" rx="22"/></clipPath>
+</defs>
+<style>
+.line{opacity:0;animation:cyc 15s infinite} .l2{animation-delay:5s} .l3{animation-delay:10s}
+@keyframes cyc{0%{opacity:0;transform:translateY(10px)}4%{opacity:1;transform:none}30%{opacity:1;transform:none}34%{opacity:0;transform:translateY(-10px)}100%{opacity:0}}
+.caret{animation:blink 1s steps(2,start) infinite} @keyframes blink{to{opacity:0}}
+.flow{stroke-dasharray:7 9;animation:flow 1.6s linear infinite} @keyframes flow{to{stroke-dashoffset:-16}}
+.chip{opacity:0;animation:up .9s ease-out forwards} @keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.hi{opacity:0;animation:up .9s .1s ease-out forwards} .nm{opacity:0;animation:up 1s .25s ease-out forwards}
+</style>
+<g clip-path="url(#r)">
+<rect width="1200" height="320" fill="url(#bg)"/><rect width="1200" height="320" fill="url(#grid)"/>
+<g filter="url(#blur)">
+<circle r="120" fill="#14b8a6" opacity=".35"><animate attributeName="cx" values="180;420;180" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="70;260;70" dur="13s" repeatCount="indefinite"/></circle>
+<circle r="140" fill="#6366f1" opacity=".32"><animate attributeName="cx" values="980;760;980" dur="19s" repeatCount="indefinite"/><animate attributeName="cy" values="260;60;260" dur="15s" repeatCount="indefinite"/></circle>
+<circle r="90" fill="#0ea5e9" opacity=".25"><animate attributeName="cx" values="600;700;600" dur="11s" repeatCount="indefinite"/><animate attributeName="cy" values="300;140;300" dur="17s" repeatCount="indefinite"/></circle>
+</g>
+<path d="M-10,292 C280,190 640,340 1210,252" fill="none" stroke="#5eead4" stroke-opacity=".55" stroke-width="2" class="flow"/>
+<circle cx="98" cy="265" r="5" fill="#0b1020" stroke="#5eead4" stroke-width="2"/><circle cx="274" cy="255" r="5" fill="#0b1020" stroke="#5eead4" stroke-width="2"/><circle cx="495" cy="267" r="5" fill="#0b1020" stroke="#5eead4" stroke-width="2"/><circle cx="750" cy="280" r="5" fill="#0b1020" stroke="#5eead4" stroke-width="2"/><circle cx="1014" cy="274" r="5" fill="#0b1020" stroke="#5eead4" stroke-width="2"/>
+<circle r="6" fill="#5eead4"><animateMotion dur="8s" repeatCount="indefinite" path="M-10,292 C280,190 640,340 1210,252"/></circle>
+<circle r="14" fill="#5eead4" opacity=".25"><animateMotion dur="8s" repeatCount="indefinite" path="M-10,292 C280,190 640,340 1210,252"/></circle>
+<text class="hi" x="78" y="104" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="14" letter-spacing="5" fill="#7d8590">HELLO, I'M</text>
+<text class="nm" x="74" y="176" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="78" font-weight="800" fill="url(#ttl)">klaschuk</text>
+<text class="line l1" x="76" y="222" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#c9d1d9"><tspan fill="#5eead4">$ </tspan>Building products that ship, end to end.<tspan class="caret" fill="#5eead4"> ▌</tspan></text><text class="line l2" x="76" y="222" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#c9d1d9"><tspan fill="#5eead4">$ </tspan>Data pipelines · Flask backends · programmatic SEO<tspan class="caret" fill="#5eead4"> ▌</tspan></text><text class="line l3" x="76" y="222" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="21" fill="#c9d1d9"><tspan fill="#5eead4">$ </tspan>Now: growing prevozni.com across the Balkans<tspan class="caret" fill="#5eead4"> ▌</tspan></text>
+<g class="chip" style="animation-delay:0.00s"><rect x="800" y="96" width="340" height="38" rx="12" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><circle cx="826" cy="115" r="4.5" fill="#34d399"><animate attributeName="r" values="3.5;6;3.5" dur="2.4s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle><text x="844" y="120" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#e6edf3">prevozni.com</text></g><g class="chip" style="animation-delay:0.25s"><rect x="800" y="146" width="340" height="38" rx="12" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><circle cx="826" cy="165" r="4.5" fill="#34d399"><animate attributeName="r" values="3.5;6;3.5" dur="2.4s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></circle><text x="844" y="170" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#e6edf3">valocheck.com</text></g><g class="chip" style="animation-delay:0.50s"><rect x="800" y="196" width="340" height="38" rx="12" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".14"/><circle cx="826" cy="215" r="4.5" fill="#34d399"><animate attributeName="r" values="3.5;6;3.5" dur="2.4s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle><text x="844" y="220" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="16" fill="#e6edf3">flightpunctuality.online</text></g>
+</g>
+<rect x=".5" y=".5" width="1199" height="319" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+</svg>
