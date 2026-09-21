@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="klaschuk — builder of live web products" width="100%">
+<a href="https://prevozni.com"><img src="assets/banner.svg" alt="klaschuk — builder of live web products" width="100%"></a>
 
 </div>
 
@@ -16,28 +16,28 @@ I build small web products end to end — scraping and data pipelines, Flask bac
 
 The source of these projects is private; the case-study repositories show what each one does, how it is built and what running it taught me.
 
-<img src="assets/divider.svg" alt="" width="100%">
+<a href="https://github.com/klaschukk"><img src="assets/divider.svg" alt="" width="100%"></a>
 
 ### Stack
 
 <div align="center">
-<img src="assets/stack.svg" alt="Python, Flask, DuckDB, SQLite, Jinja2, Gunicorn, nginx, Cloudflare, systemd, TypeScript, React, Electron, HTML and CSS" width="100%">
+<a href="https://github.com/klaschukk?tab=repositories"><img src="assets/stack.svg" alt="Python, Flask, DuckDB, SQLite, Jinja2, Gunicorn, nginx, Cloudflare, systemd, TypeScript, React, Electron, HTML and CSS" width="100%"></a>
 </div>
 
 ### Activity
 
 <div align="center">
-<img src="assets/stats.svg" alt="GitHub activity over the last 12 months" width="100%">
+<a href="https://github.com/klaschukk?tab=overview"><img src="assets/stats.svg" alt="GitHub activity over the last 12 months" width="100%"></a>
 </div>
 
 <sub>Numbers come from the GitHub API for this account and include private repositories (counts only, nothing else is exposed).</sub>
 
 <div align="center">
-<picture>
+<a href="https://github.com/Platane/snk"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/klaschukk/klaschukk/output/github-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/klaschukk/klaschukk/output/github-snake.svg">
   <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/klaschukk/klaschukk/output/github-snake.svg" width="100%">
-</picture>
+</picture></a>
 </div>
 
-<img src="assets/quote.svg" alt="Quotes: Linus Torvalds, Kent Beck, Antoine de Saint-Exupéry" width="100%">
+<a href="https://github.com/klaschukk"><img src="assets/quote.svg" alt="Quotes: Linus Torvalds, Kent Beck, Antoine de Saint-Exupéry" width="100%"></a>
